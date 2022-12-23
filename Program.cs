@@ -48,7 +48,9 @@ namespace Exe5
                 Console.WriteLine("Queue tidak ada!");
                 return;
             }
-            
+            Node display;
+            for (display = MAULA; display != null; display = display.next)
+                Console.WriteLine(display.name);
         }
      }
 }
