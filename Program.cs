@@ -29,6 +29,17 @@ namespace Exe5
                 GHANI = newnode;
             }
         }
+        public void delete()
+        {
+            if (MAULA == null)
+            {
+                Console.WriteLine("Queue Kosong !");
+                return;
+            }
+            MAULA = MAULA.next;
+            if (MAULA == null)
+                GHANI = null;
+        }
      }
 }
 
