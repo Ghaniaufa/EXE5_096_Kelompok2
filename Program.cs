@@ -1,13 +1,15 @@
 ﻿using System;
-
-class QNode
+namespace Exe5
 {
-    public int key;
-    public QNode next;
-
-    public QNode(int key)
+    class QNode
     {
-        this.key = key;
-        this.next = null;
+        public int key;
+        public QNode next;
+        public QNode(int key)
+        {
+            this.key = key;
+            this.next = null;
+        }
     }
 }
+
