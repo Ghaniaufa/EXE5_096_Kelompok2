@@ -9,7 +9,13 @@ namespace Exe5
 
     class queue
     {
-
+        Node MAULA, GHANI;
+        public queue()
+        {
+            MAULA = null;
+            GHANI = null;
+        }
+        public void insert();
     }
 }
 
