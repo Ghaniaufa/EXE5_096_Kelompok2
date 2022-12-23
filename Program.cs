@@ -40,6 +40,16 @@ namespace Exe5
             if (MAULA == null)
                 GHANI = null;
         }
+
+        public void display()
+        {
+            if (MAULA == null)
+            {
+                Console.WriteLine("Queue tidak ada!");
+                return;
+            }
+            
+        }
      }
 }
 
