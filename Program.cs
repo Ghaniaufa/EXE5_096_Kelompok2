@@ -13,3 +13,17 @@ namespace Exe5
     }
 }
 
+class Queue
+{
+    public QNode maula, ghani;
+
+    public Queue()
+    {
+        this.maula = this.ghani = null;
+    }
+    public void enqueue(int key)
+    {
+
+    }
+}
+
