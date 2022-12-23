@@ -27,7 +27,10 @@ namespace Exe5
             {
                 MAULA = newnode;
                 GHANI = newnode;
+                return;
             }
+            GHANI.next = newnode;
+            GHANI = newnode;
         }
         public void delete()
         {
